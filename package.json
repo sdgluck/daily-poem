@@ -1,0 +1,14 @@
+{
+  "name": "daily-poem",
+  "version": "0.0.1",
+  "description": "Read a new poem every day! (http://poems.com)",
+  "main": "cli.js",
+  "author": "Sam Gluck <sdgluck@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^9.2.1",
+    "log-update": "^1.0.2",
+    "meow": "^3.7.0",
+    "ora": "^0.2.3"
+  }
+}

@@ -1,9 +1,9 @@
 {
   "name": "daily-poem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Read a new poem every day! (http://poems.com)",
   "bin": {
-    "fast": "cli.js"
+    "daily-poem": "cli.js"
   },
   "engines": {
     "node": ">=4"

@@ -14,7 +14,7 @@ function open (url) {
 }
 
 module.exports = function () {
-  let poemUrl;
+  let poemUrl
   return open('http://poems.com/')
     .then(($) => {
       poemUrl = $('#daily_content')

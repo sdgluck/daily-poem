@@ -2,6 +2,10 @@
 
 > Read a new poem every day! (http://poems.com)
 
+Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
+
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 ## Requirements
 
 - Node >= 4.0.0

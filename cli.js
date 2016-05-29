@@ -9,14 +9,14 @@ const getDailyPoem = require('./api')
 meow(`
   Usage
     $ daily-poem
-`);
+`)
 
-const spinner = ora();
+const spinner = ora()
 
-setInterval(() => logUpdate(spinner.frame()), 50);
+setInterval(() => logUpdate(spinner.frame()), 50)
 
 getDailyPoem()
-  .then(poem => {
+  .then((poem) => {
     const poemContent = poem.content
       .split(/\n/).join('\n  ')
 
@@ -36,5 +36,5 @@ getDailyPoem()
       `  ${poemContent}`
     )
   })
-  .catch(err => console.log('A wild error appeared!\n' + err))
+  .catch((err) => console.log('A wild error appeared!\n' + err))
   .then(() => process.exit())

@@ -1,7 +1,10 @@
 {
   "name": "daily-poem",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Read a new poem every day! (http://poems.com)",
+  "scripts": {
+    "lint": "standard"
+  },
   "bin": {
     "daily-poem": "./cli.js"
   },
@@ -25,5 +28,8 @@
     "log-update": "^1.0.2",
     "meow": "^3.7.0",
     "ora": "^0.2.3"
+  },
+  "devDependencies": {
+    "standard": "^7.1.1"
   }
 }

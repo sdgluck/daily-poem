@@ -1,6 +1,6 @@
 {
   "name": "daily-poem",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Read a new poem every day! (http://poems.com)",
   "main": "cli.js",
   "author": "Sam Gluck <sdgluck@gmail.com>",

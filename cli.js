@@ -3,7 +3,6 @@
 const ora = require('ora')
 const meow = require('meow')
 const logUpdate = require('log-update')
-
 const getDailyPoem = require('./api')
 
 meow(`
@@ -13,12 +12,7 @@ meow(`
 
 const spinner = ora();
 
-let data
-
-setInterval(() => {
-  const pre = spinner.frame()
-  !data && logUpdate(pre)
-}, 50);
+setInterval(() => logUpdate(spinner.frame()), 50);
 
 getDailyPoem()
   .then(poem => {
@@ -40,9 +34,6 @@ getDailyPoem()
       `  ${separator}\n\n` +
       `  ${poemContent}`
     )
-
-    process.exit()
   })
-  .catch(err => {
-    console.log('A wild error appeared!\n' + err)
-  })
+  .catch(err => console.log('A wild error appeared!\n' + err))
+  .then(() => process.exit())

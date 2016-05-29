@@ -1,10 +1,25 @@
 {
   "name": "daily-poem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Read a new poem every day! (http://poems.com)",
-  "main": "cli.js",
+  "bin": {
+    "fast": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
   "author": "Sam Gluck <sdgluck@gmail.com>",
   "license": "MIT",
+  "repository": "sdgluck/daily-poem",
+  "keywords": [
+    "daily",
+    "poem",
+    "poetry",
+    "poems",
+    "literature",
+    "reading",
+    "prose"
+  ],
   "dependencies": {
     "jsdom": "^9.2.1",
     "log-update": "^1.0.2",

@@ -1,6 +1,6 @@
 {
   "name": "daily-poem",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Read a new poem every day! (http://poems.com)",
   "bin": {
     "daily-poem": "./cli.js"

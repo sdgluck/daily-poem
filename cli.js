@@ -33,7 +33,8 @@ getDailyPoem()
       `  "${poem.title}"\n` +
       `  by ${poemAuthor}\n` +
       `  ${separator}\n\n` +
-      `  ${poemContent}`
+      `  ${poemContent}\n\n` +
+      `  (${poem.url})`
     )
   })
   .catch((err) => console.log('A wild error appeared!\n' + err))

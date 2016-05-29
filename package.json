@@ -1,6 +1,6 @@
 {
   "name": "daily-poem",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Read a new poem every day! (http://poems.com)",
   "scripts": {
     "lint": "standard"

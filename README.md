@@ -1,6 +1,6 @@
 # Daily Poem
 
-> Read a new poem every day! (http://poems.com)
+> Read a new poem every day! (from http://poems.com)
 
 Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 

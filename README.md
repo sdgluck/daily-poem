@@ -11,6 +11,8 @@ Read a new poem every day, the developer's way... on the command line!
 
 Scrapes the daily poem from http://poems.com and displays it to you in the command line.
 
+<img alt="daily-poem demo" src="https://github.com/sdgluck/daily-poem/blob/master/demo.gif">
+
 ## Requirements
 
 - Node >= 4.0.0

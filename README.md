@@ -1,11 +1,15 @@
 # Daily Poem
 
-> Read a new poem every day! (http://poems.com)
+> Read a new poem every day! (from http://poems.com)
 
 Made with ❤ at [@outlandish](http://www.twitter.com/outlandish)
 
 <a href="http://badge.fury.io/js/daily-poem"><img alt="npm version" src="https://badge.fury.io/js/daily-poem.svg"></a>
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
+Read a new poem every day, the developer's way... on the command line!
+
+Scrapes the daily poem from http://poems.com and displays it to you in the command line.
 
 ## Requirements
 

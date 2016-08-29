@@ -4,6 +4,7 @@
 const ora = require('ora')
 const meow = require('meow')
 const logUpdate = require('log-update')
+
 const getDailyPoem = require('./api')
 
 meow(`

@@ -14,17 +14,16 @@ function open (url) {
 }
 
 module.exports = function () {
-  let poemUrl
-  return open('http://poems.com/')
-    .then(($) => {
-      poemUrl = $('#daily_content')
-        .querySelector('strong').querySelector('a').href
-      return open(poemUrl)
-    })
-    .then(($) => ({
+  return open('http://poems.com/').then(($) => {
+    const poemUrl = $('#daily_content')
+      .querySelector('strong')
+      .querySelector('a').href
+
+    return open(poemUrl).then(($) => ({
       url: poemUrl,
       title: $('#page_title').textContent.trim(),
       author: $('#byline').querySelector('a').innerHTML.trim(),
       content: $('#poem').textContent.trim()
     }))
+  })
 }

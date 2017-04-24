@@ -1,12 +1,13 @@
 {
   "name": "daily-poem",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Read a new poem every day! (http://poems.com)",
   "scripts": {
     "lint": "standard"
   },
   "bin": {
-    "daily-poem": "./cli.js"
+    "daily-poem": "./cli.js",
+    "poem": "./cli.js"
   },
   "engines": {
     "node": ">=4"
